@@ -193,6 +193,12 @@ describe("DFS", function () {
 
     expect.assertions(2);
 
+    [
+      'R', 'W', 'Y',
+      'V', 'U', 'X',
+      'P', 'Q', 'S'
+    ]
+
     if (result[1] === "R") {
       expect(result[2] === "Q" || result[2] === "Y").toBe(true);
       if (result[2] === "Q") {
